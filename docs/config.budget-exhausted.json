@@ -1,0 +1,32 @@
+{
+  "vocab_size": 5,
+  "dim": 3,
+  "classes": 2,
+  "embeddings": [
+    [1.0, 0.0, 0.0],
+    [0.0, 1.0, 0.0],
+    [0.0, 0.0, 1.0],
+    [0.6, 0.6, 0.0],
+    [0.0, 0.6, 0.6]
+  ],
+  "weights": [
+    [1.2, -0.8, 0.3],
+    [-0.6, 1.0, -0.4]
+  ],
+  "bias": [0.1, -0.1],
+
+  "real_tokens": [[0, 3, 1], [0, 0, 3], [2, 4, 1], [4, 4, 2]],
+  "real_labels": [0, 0, 1, 1],
+
+  "synth_count": 4,
+  "seq_length": 3,
+  "synth_labels": [0, 0, 1, 1],
+
+  "penalty": 0.01,
+  "inner_steps": 80,
+  "step_size": 1.0,
+  "max_outer": 5,
+  "tol": 0.001,
+  "seed": 3,
+  "init_spread": 0.15
+}
